@@ -53,15 +53,6 @@
 									<div class="box alt">
 										<div class="row uniform 50%">
 											<div class="4u">
-												<span id="myBtn" class="image fit outline"><img src="images/pic02.jpg" alt="" /></span>
-											</div>
-											<div class="4u">
-												<span id="myBtn2" class="image fit outline"><img src="images/portrait_01.jpg" alt="" /></span>
-											</div>
-											<div class="4u">
-												<span id="myBtn3" class="image fit outline"><img src="images/portrait_02.jpg" alt="" /></span>
-											</div>
-											<div class="4u">
 												<span id="myBtn4" class="image fit outline"><img src="images/portrait_03.jpg" alt="" /></span>
 											</div>
 											<div class="4u">
@@ -71,7 +62,16 @@
 												<span id="myBtn6" class="image fit outline"><img src="images/portrait_07.jpg" alt="" /></span>
 											</div>
 											<div class="4u">
+												<span id="myBtn2" class="image fit outline"><img src="images/portrait_01.jpg" alt="" /></span>
+											</div>
+											<div class="4u">
+												<span id="myBtn3" class="image fit outline"><img src="images/portrait_02.jpg" alt="" /></span>
+											</div>
+											<div class="4u">
 												<span id="myBtn7" class="image fit outline"><img src="images/portrait_09.jpg" alt="" /></span>
+											</div>
+											<div class="4u">
+												<span id="myBtn" class="image fit outline"><img src="images/pic02.jpg" alt="" /></span>
 											</div>
 											<div class="4u">
 												<span id="myBtn8" class="image fit outline"><img src="images/portrait_10.jpg" alt="" /></span>
@@ -98,39 +98,39 @@
 							<span class="image"><img src="images/pic02.jpg" alt="" /></span>
 						</div>
 					</div>
-				  <div id="myModal2" class="modal2">
-						<div class="modal-content">
-							<span class="close">&times;</span>
+				  <div id="myModal2" class="modal2-vertical">
+						<div class="modal-content-vertical">
+							<span class="close-vertical">&times;</span>
 							<span class="image"><img src="images/portrait_01.jpg" alt="" /></span>
 						</div>
 					</div>
-					<div id="myModal3" class="modal3">
-						<div class="modal-content">
-							<span class="close">&times;</span>
+					<div id="myModal3" class="modal3-vertical">
+						<div class="modal-content-vertical">
+							<span class="close-vertical">&times;</span>
 							<span class="image"><img src="images/portrait_02.jpg" alt="" /></span>
 						</div>
 					</div>
-					<div id="myModal4" class="modal4">
-						<div class="modal-content">
-							<span class="close">&times;</span>
+					<div id="myModal4" class="modal4-vertical">
+						<div class="modal-content-vertical">
+							<span class="close-vertical-white">&times;</span>
 							<span class="image"><img src="images/portrait_03.jpg" alt="" /></span>
 						</div>
 					</div>
-				  <div id="myModal5" class="modal5">
-						<div class="modal-content">
-							<span class="close">&times;</span>
+				  <div id="myModal5" class="modal5-vertical">
+						<div class="modal-content-vertical">
+							<span class="close-vertical">&times;</span>
 							<span class="image"><img src="images/portrait_06.jpg" alt="" /></span>
 						</div>
 					</div>
-					<div id="myModal6" class="modal6">
-						<div class="modal-content">
-							<span class="close">&times;</span>
+					<div id="myModal6" class="modal6-vertical">
+						<div class="modal-content-vertical">
+							<span class="close-vertical">&times;</span>
 							<span class="image"><img src="images/portrait_07.jpg" alt="" /></span>
 						</div>
 					</div>
-					<div id="myModal7" class="modal7">
-						<div class="modal-content">
-							<span class="close">&times;</span>
+					<div id="myModal7" class="modal7-vertical">
+						<div class="modal-content-vertical">
+							<span class="close-vertical">&times;</span>
 							<span class="image"><img src="images/portrait_09.jpg" alt="" /></span>
 						</div>
 					</div>
@@ -157,14 +157,11 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							<li><a href="https://www.facebook.com/ani.litzen" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/anilitzenn/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Ani Litzen</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 
@@ -199,7 +196,7 @@
 			<script>
 				var modal2 = document.getElementById('myModal2');
 				var btn2 = document.getElementById("myBtn2");
-				var span2 = document.getElementsByClassName("close")[1];
+				var span2 = document.getElementsByClassName("close-vertical")[0];
 				btn2.onclick = function() {
 				    modal2.style.display = "block";
 				}
@@ -216,7 +213,7 @@
 			<script>
 				var modal3 = document.getElementById('myModal3');
 				var btn3 = document.getElementById("myBtn3");
-				var span3 = document.getElementsByClassName("close")[2];
+				var span3 = document.getElementsByClassName("close-vertical")[1];
 				btn3.onclick = function() {
 				    modal3.style.display = "block";
 				}
@@ -233,7 +230,7 @@
 			<script>
 				var modal4 = document.getElementById('myModal4');
 				var btn4 = document.getElementById("myBtn4");
-				var span4 = document.getElementsByClassName("close")[3];
+				var span4 = document.getElementsByClassName("close-vertical-white")[0];
 				btn4.onclick = function() {
 				    modal4.style.display = "block";
 				}
@@ -250,7 +247,7 @@
 			<script>
 				var modal5 = document.getElementById('myModal5');
 				var btn5 = document.getElementById("myBtn5");
-				var span5 = document.getElementsByClassName("close")[4];
+				var span5 = document.getElementsByClassName("close-vertical")[2];
 				btn5.onclick = function() {
 				    modal5.style.display = "block";
 				}
@@ -267,7 +264,7 @@
 			<script>
 				var modal6 = document.getElementById('myModal6');
 				var btn6 = document.getElementById("myBtn6");
-				var span6 = document.getElementsByClassName("close")[5];
+				var span6 = document.getElementsByClassName("close-vertical")[3];
 				btn6.onclick = function() {
 				    modal6.style.display = "block";
 				}
@@ -284,7 +281,7 @@
 			<script>
 				var modal7 = document.getElementById('myModal7');
 				var btn7 = document.getElementById("myBtn7");
-				var span7 = document.getElementsByClassName("close")[6];
+				var span7 = document.getElementsByClassName("close-vertical")[4];
 				btn7.onclick = function() {
 				    modal7.style.display = "block";
 				}
@@ -301,7 +298,7 @@
 			<script>
 				var modal8 = document.getElementById('myModal8');
 				var btn8 = document.getElementById("myBtn8");
-				var span8 = document.getElementsByClassName("close")[7];
+				var span8 = document.getElementsByClassName("close")[1];
 				btn8.onclick = function() {
 				    modal8.style.display = "block";
 				}

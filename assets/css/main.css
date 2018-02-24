@@ -3984,6 +3984,90 @@
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+.modal7-vertical {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	/* padding-top: 20px; /* Location of the box */
+	left: 0;
+	top: 5%;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: hidden; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal4-vertical {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	/* padding-top: 20px; /* Location of the box */
+	left: 0;
+	top: 5%;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: hidden; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal5-vertical {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	/* padding-top: 20px; /* Location of the box */
+	left: 0;
+	top: 5%;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: hidden; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal2-vertical {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	/* padding-top: 20px; /* Location of the box */
+	left: 0;
+	top: 5%;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: hidden; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal3-vertical {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	/* padding-top: 20px; /* Location of the box */
+	left: 0;
+	top: 5%;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: hidden; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal6-vertical {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	/* padding-top: 20px; /* Location of the box */
+	left: 0;
+	top: 5%;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: hidden; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
 /* Modal Content */
 .modal-content {
     background-color: #fefefe;
@@ -3991,10 +4075,22 @@
     /* padding: 20px; */
     /* border: 1px solid #888; */
     width: 70%;
+		height: 30%;
+}
+.modal-content-vertical {
+    /* background-color: #fefefe; */
+    margin: auto;
+    /* padding: 20px; */
+    /* border: 1px solid #888; */
+    width: 33%;
 		height: 60%;
 }
 
 .modal-content img {
+	width: 100%;
+}
+
+.modal-content-vertical img {
 	width: 100%;
 }
 
@@ -4013,6 +4109,44 @@
 
 .close:hover,
 .close:focus {
+		opacity: .5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close-vertical {
+	position: fixed; /* Stay in place */
+	z-index: 1;
+	color: black;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	margin-right: 5px;
+	top: 6%;
+	right: 33.7%;
+}
+
+.close-vertical:hover,
+.close-vertical:focus {
+		opacity: .5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close-vertical-white {
+	position: fixed; /* Stay in place */
+	z-index: 1;
+	color: white;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	margin-right: 5px;
+	top: 6%;
+	right: 33.7%;
+}
+
+.close-vertical-white:hover,
+.close-vertical-white:focus {
 		opacity: .5;
     text-decoration: none;
     cursor: pointer;
