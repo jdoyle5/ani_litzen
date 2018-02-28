@@ -53,7 +53,7 @@
 									<div class="box alt">
 										<div class="row uniform 50%">
 											<div class="4u">
-												<span id="myBtn" class="image fit outline"><img src="images/pic03.jpg" alt="" /></span>
+												<span id="myBtn" class="image fit outline"><img src="images/white_shirt_all.jpg" alt="" /></span>
 											</div>
 											<div class="4u">
 												<span id="myBtn2" class="image fit outline"><img src="images/white_shirt_01.jpg" alt="" /></span>
@@ -85,6 +85,9 @@
 											<div class="4u">
 												<span id="myBtn11" class="image fit outline"><img src="images/white_shirt_10.jpg" alt="" /></span>
 											</div>
+											<div class="4u">
+												<span id="myBtn12" class="image fit outline"><img src="images/white_shirt_moodboard.jpg" alt="" /></span>
+											</div>
 										</div>
 									</div>
 								</section>
@@ -104,7 +107,7 @@
 					<div id="myModal" id="background" class="modal">
 						<div class="modal-content">
 							<span class="close">&times;</span>
-							<span class="image"><img src="images/pic03.jpg" alt="" /></span>
+							<span class="image"><img src="images/white_shirt_all.jpg" alt="" /></span>
 						</div>
 					</div>
 				  <div id="myModal2" class="modal2">
@@ -162,6 +165,12 @@
 						</div>
 					</div>
 					<div id="myModal11" class="modal11">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<span class="image"><img src="images/white_shirt_10.jpg" alt="" /></span>
+						</div>
+					</div>
+					<div id="myModal12" class="modal12">
 						<div class="modal-content">
 							<span class="close">&times;</span>
 							<span class="image"><img src="images/white_shirt_10.jpg" alt="" /></span>
@@ -386,6 +395,23 @@
 				window.onclick = function(event) {
 				    if (event.target == modal) {
 				        modal11.style.display = "none";
+				    }
+				}
+			</script>
+
+			<script>
+				var modal12 = document.getElementById('myModal12');
+				var btn12 = document.getElementById("myBtn12");
+				var span12 = document.getElementsByClassName("close")[11];
+				btn12.onclick = function() {
+				    modal12.style.display = "block";
+				}
+				span12.onclick = function() {
+				    modal12.style.display = "none";
+				}
+				window.onclick = function(event) {
+				    if (event.target == modal) {
+				        modal12.style.display = "none";
 				    }
 				}
 			</script>
